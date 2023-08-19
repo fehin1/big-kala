@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Montserrat&family=Poppins:wght@500&family=Roboto+Condensed:wght@300&family=Roboto:wght@500&family=Sarabun:wght@300;400;600;800&family=Tenor+Sans&display=swap" rel="stylesheet">   
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap&family=Kaushan+Script&family=Montserrat&family=Poppins:wght@500&family=Roboto+Condensed:wght@300&family=Roboto:wght@500&family=Sarabun:wght@300;400;600;800&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <style>
+        .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(0,0,0,0.3), #fcde67);
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <div class="overlay">
+        <nav>
+            <a href=""><img src="Let-It-Ride.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="textbox">
+        <h1>Go Wherever, <br>Whenever</h1>
+        <p>At Let It Ride, we're dedicated to providing you with a safe, comfortable, and reliable transportation experience. 
+            <br>Whether you're heading to the airport, exploring the city, 
+            or simply need a ride to your destination,<br> 
+            we're here to make your journey seamless, enjoyable and cheap.</p>
+        <a href="" class="hero-btn"><button>Visit us to Know More</button></a>
+    </div>
+    </div>
+   </section>
+
+
+          <!-- About us  -->
+          <section class="about-us">
+            <div class="about-container">
+            <h1>About Us</h1>
+            <p>Welcome to Let It Ride, your trusted partner for reliable and comfortable 
+                <br>transportation solutions. Established with a passion for providing top-notch taxi services, 
+                <br>we've been serving the city of Lagos for 6 years.</p>
+            </div>
+          </section>
+
+
+        <section id="choose1">
+                <div class="choose-title-text">
+                    <h1>Why Choose Us</h1>
+                 </div>
+                 <div class="choose-box">
+                    <div class="choose-us">
+                        <h1>Customer-Centric Approach</h1>
+                        <div class="choose-desc">
+                            <div class="choose-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="choose-text">
+                                <p>You're at the heart of everything we do. From our friendly customer support to our skilled drivers, 
+                                    our entire team is committed to exceeding your expectations.</p>
+                            </div>
+                        </div>
+                        <h1>Transparent Pricing</h1>
+                        <div class="choose-desc">
+                            <div class="choose-icon">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <div class="choose-text">
+                                <p>Your safety is paramount. We adhere to the highest safety standards, 
+                                 ensuring well-maintained vehicles and experienced drivers who prioritize your well-being on every journey.</p>
+                            </div>
+                        </div>
+                        <h1>Safety First</h1>
+                        <div class="choose-desc">
+                            <div class="choose-icon">
+                                <i class="fas fa-check-square"></i>
+                            </div>
+                            <div class="choose-text">
+                                <p> With us, what you see is what you pay. Our transparent pricing and no hidden fees policy ensure you have complete peace of mind.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="choose-img">
+                        <img src="let.jpg">
+                    </div>
+                 </div>
+        </section>
+
+                   <!-- ---Features---- -->
+                   <section class="features">
+                    <div class="features-container">
+                        <div class="features1">
+                            <h3>24/7 Availability</h3>
+                            <p>Our company is at your service 24 hours a day, 7 days a week. Whether it's an early morning airport transfer or a late-night ride home, we're here to ensure you have reliable transportation whenever you need it.</p>
+                        </div>
+                        <!-- <div class="features1">
+                            <h3>Wide Range of Vehicles</h3>
+                            <p>We take pride in offering a diverse fleet of vehicles to cater to various preferences and group sizes. From comfortable sedans to spacious SUVs, you can choose the perfect vehicle for your journey.</p>
+                        </div> -->
+                        <div class="features1">
+                            <h3>Experienced Drivers</h3>
+                            <p>Our team of experienced and professional drivers is committed to providing you with a safe and pleasant journey. With extensive knowledge of local routes and traffic conditions, you can trust our drivers to get you to your destination efficiently.</p>
+                        </div>
+                        <div class="features1">
+                            <h3>Online Booking</h3>
+                            <p>or our corporate clients, we offer tailored transportation solutions to meet your business needs. Enjoy streamlined booking, priority service, and detailed invoicing, ensuring efficient and comfortable rides for your team.</p>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!-- TESTIMONIALS -->
+                <section id="testimonial">
+                    <div class="test-title-text">
+                        <p>TESTIMONIAL</p>
+                        <h1>What Our Client Says</h1>
+                    </div>
+                    <div class="testimonial-row">
+                        <div class="testimonial-col">
+                            <div class="user">
+                                <img src="ikechukwu.jpg">
+                                <div class="user-info">
+                                    <h4>JOHN IKECHUKWU  <i class="fab fa-twitter"></i></h4>
+                                    <small>@ikechuks</small>
+                                </div>
+                            </div>
+                            <p>I've been using Let It Ride for my business trips for over a year now. 
+                                Their punctuality, comfortable cars, and professional drivers have made every journey a breeze. 
+                                I highly recommend their services!</p>
+                        </div>
+                        <div class="testimonial-col">
+                            <div class="user">
+                                <img src="gene.jpg">
+                                <div class="user-info">
+                                    <h4>AMANDA ADICHIE  <i class="fab fa-twitter"></i></h4>
+                                    <small>@bigmands</small>
+                                </div>
+                            </div>
+                            <p>Exploring a new city becomes so much better with Let It Ride. 
+                                Their drivers are  knowledgeable about the best spots also friendly and accommodating. 
+                                Thanks to them, I had a memorable vacation!</p>
+                        </div>
+                        <div class="testimonial-col">
+                            <div class="user">
+                                <img src="tobe.jpg">
+                                <div class="user-info">
+                                    <h4>TOBECHUKWU ORJI  <i class="fab fa-twitter"></i></h4>
+                                    <small>@tobe</small>
+                                </div>
+                            </div>
+                            <p>Organizing transportation for events can be challenging, but Let It Ride made it effortless. 
+                                Their team provided a seamless experience for our attendees, ensuring everyone arrived on time and in comfort.</p>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+                <section class="download-app">
+                   <div class="download-container">
+                    <div class="download1">
+                        <h1>Download our app</h1>
+                    </div>  
+                    <div class="download">
+                        <h2>Request in seconds, <br>ride in minutes.</h2>
+                        <p>Scan the QR code with your phone camera to <br>download the Let It Ride app. Available for iOS and <br>Android devices.</p>
+                        <img src="qrcode.png" alt="QR Code">
+                    </div>
+                   </div>
+                </section>
+
+<!-- 
+                <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+                <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+                <div id="map" style="width: 100%; height: 300px;"></div>
+                <script>
+                    mapboxgl.accessToken = 'pk.eyJ1IjoiZGVmcmVzaGVzdDEiLCJhIjoiY2xsYTA2enB4MTRuaDNtcm10ZzVqbGN6NCJ9.mjzyf1hSlCKZKcB3lYAgVg';
+                    var map = new mapboxgl.Map({
+                      container: 'map',
+                      style: 'mapbox://styles/defreshest1/cllfrl5jg00qc01qpdwvg2kxc',
+                      center: [-0.1195, 51.5033],
+                      zoom: 15
+                    });
+                  </script> -->
+
+
+                  <section id="footer">
+                    <div class="footer-title-text">
+                        <nav>
+                            <ul>
+                                <li><a href="">Privacy</a></li>
+                                <li><a href="">Terms</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="social-links">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i></h4>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <p>Copyright 2023, Let It Ride</p>
+                    </div>
+                  </section>
+                  
+
+
+
+
+
+
+                 <!-- Javascript for Toggle Menu -->
+
+                  <script>
+                    var navLinks = document.getElementById("navLinks");
+
+                    function showMenu() {
+                        navLinks.style.right = "0";
+                    }
+
+
+                    function hideMenu() {
+                        navLinks.style.right = "-200px";
+                    }
+                  </script>
+</body>
+</html>
